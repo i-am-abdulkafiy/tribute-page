@@ -1,0 +1,68 @@
+@charset "utf-8";
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Body Section */
+body
+{
+	margin-right: 20%;
+	margin-left: 20%;
+	background-color: #F3F3F3;
+}
+
+/* Main Section */
+#main
+{
+	background-color: #ffffff;
+	padding: 1.4rem;
+}
+
+/* Profile Image */
+.profile img
+{
+	width: 100%;
+	border-radius: 5px;
+}
+figcaption
+{
+	text-align: left;
+	padding-top: 1rem;
+	margin-bottom: 1rem;
+	font-family: Lato,sans-serif;
+}
+
+/* Article Section */
+article h2
+{
+	font-family: Lato,sans-serif;
+	padding-bottom: 1rem;
+}
+article p
+{
+	font-family: sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 786px)
+{
+	body
+	{
+		margin-right: 10%;
+		margin-left: 10%;
+	}
+}
+
+@media screen and (max-width: 500px)
+{
+	body
+	{
+		margin-right: 0%;
+		margin-left: 0%;
+	}
+}
